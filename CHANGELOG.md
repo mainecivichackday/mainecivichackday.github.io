@@ -1,8 +1,8 @@
 CHANGELOG
 =========
 
-v0.1.0
-------
+v2014.0.1
+---------
 
   * Initial build
   * Implemented Sunshine single page template
