@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+v2014.0.3
+---------
+
+  * Updating philosophy, motivation, sponsorship and carousel.
+
 v2014.0.2
 ---------
 
