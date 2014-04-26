@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+v2014.0.3
+---------
+
+  * Updating philosophy, motivation, sponsorship and carousel.
+  * Added Schedule. Changed License to MIT.
+
 v2014.0.2
 ---------
 

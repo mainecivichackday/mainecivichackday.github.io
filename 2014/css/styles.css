@@ -497,6 +497,30 @@ a:hover {
 }
 /* END: CONTACT SECTION*/
 
+
+/* BEGIN: SCHEDULE */
+
+  dl {
+    padding: 0.5em;
+  }
+  dt {
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+  }
+  dt:after {
+    content: ":";
+  }
+  dd {
+    margin: 0 0 0 110px;
+    padding: 0 0 0.5em 0;
+    text-align: left;
+  }
+
+/* END: SCHEDULE */
+
 /* START: FOOTER SECTION*/
 #footer {
     font-size: 12px;
