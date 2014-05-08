@@ -1,7 +1,7 @@
 mainecivichackday.github.io
 ============================
 
-Our public website, soon to replace the wordpress installl currently live at www.mainecivichackday.com
+Our public website, soon to replace the wordpress install currently live at www.civichack.me
 
 Goal
 ----
