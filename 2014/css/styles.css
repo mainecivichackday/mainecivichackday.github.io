@@ -215,7 +215,6 @@ a:hover {
 /* START: HOME SECTION*/
 #header {
     overflow: hidden;
-    height: auto;
     background: url('../images/home.jpg') fixed no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
