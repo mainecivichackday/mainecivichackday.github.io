@@ -1,0 +1,970 @@
+/* #Table of Contents
+
+1. Site Styles
+2. Header
+3. Slider
+4. Countdown
+5. Follow
+6. Bottom
+7. Footer
+8. CSS Hacks
+9. Media Queries
+================================================== */
+
+		
+		
+/* ========================= 1. Site Styles ========================= */
+
+/* Page Styles */
+
+* { 
+	-moz-box-sizing:border-box; 
+	-webkit-box-sizing:border-box; 
+	box-sizing:border-box; 
+}
+
+body {
+	font-family:'PT Sans', Arial, sans-serif;
+	color:#7a7a7a;
+	font-size:16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:#404040;
+	font-family:'Fjalla One', Arial, sans-serif;
+	font-weight:normal;
+}
+
+/* Font Variants */
+
+.font-sharp {
+	color:#404040;	
+}
+
+.font-required {
+	color:#4790af;
+}
+
+.font-blue {
+	color:#4aaae1;
+}
+
+.font-green {
+	color:#3eb755;
+}
+
+.font-orange {
+	color:#e76b3f;
+}
+
+.font-violet {
+	color:#a55adf;
+}
+
+/* Links */
+
+a, a:visited { 		
+	-webkit-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out, outline .2s ease;
+	-moz-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out, outline .2s ease;
+	-ms-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out, outline .2s ease;
+	-o-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out, outline .2s ease;
+	transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out, outline .2s ease;
+}
+
+a:hover {
+	text-decoration:none;	
+}
+
+/* Site Elements */
+
+.header {
+	background:url(../images/header-strip.png) center repeat-x;
+	display:inline-block;
+	padding:0px 30px;
+}
+
+	.header h2 {
+		text-transform:uppercase;
+		font-size:32px;
+		line-height:36px;
+		background-color:#FFF;
+		display:inline;
+		padding:0px 15px;
+	}
+
+
+
+/* ========================= 2. Header ========================= */
+
+#top {
+	position:relative;
+	z-index:999;
+	height:100px;
+}
+
+	/* Logo */
+
+	#top .logo {
+		width:135px;
+		height:162px;
+		background:url(../images/base-logo.png) no-repeat;
+		text-align:center;
+		padding-top:15px;
+		position:absolute;
+	}
+	
+		#top .logo h3 {
+			text-transform:uppercase;
+			color:#FFF;
+			margin-top:15px;
+			font-family:'Fjalla One', Arial, sans-serif;
+			font-size:20px;
+			letter-spacing:1px;
+			cursor:default;	
+		}
+		
+		#top .logo a, #top .logo a:visited {
+			color:#FFF;
+		}
+		
+		#top .logo a:hover {
+			color:#FFF;
+			text-decoration:none;	
+		}
+		
+	/* Social */
+	
+	#top .social {
+		text-align:right;
+		margin-top:32px;	
+	}
+	
+		#top .social .tooltip.bottom {
+		  margin-top:12px;
+		}
+	
+			#top .social ul li {
+				display:inline;
+			}
+			
+				#top .social ul li img {
+					width:38px;
+					height:38px;
+				}
+				
+				#top .social ul li img:hover {
+					-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=80)";
+					filter: alpha(opacity=80);
+					opacity: 0.8;
+				}
+		
+		
+	
+/* ========================= 3. Slider ========================= */
+
+#slider {
+	width:100%;
+	text-align:center;
+	background-color:#000;
+	position:relative;
+}
+
+	/* Slider Image */
+
+	#slider .flexslider {
+		margin:0px;
+	}
+
+	#slider .flexslider.loader {
+		background: #000 url(../images/loader.gif) no-repeat center center;
+		width:100%;
+	}
+	
+	/* Slider Text */
+
+	#slider .text {
+		position:absolute;
+		top:26%;
+		left:0;
+		right:0;
+		z-index:999;
+		padding:0px 20px;
+	}
+	
+		#slider .text h1 {
+			font-size:54px;
+			line-height:80px;
+			text-transform:uppercase;
+			color:#FFF;
+			text-shadow:1px 1px 5px #4A4A4A;
+			letter-spacing:1px;	
+		}
+		
+		#slider .text h4 {
+			margin-top:20px;
+			font-size:20px;
+			color:#FFF;
+			text-shadow:1px 1px 2px #4A4A4A;
+			letter-spacing:1px;
+			font-family:'Bitter', Georgia, serif;
+			line-height:30px;
+		}
+		
+		
+
+/* ========================= 4. Countdown ========================= */
+
+#countdown {
+	position:relative;
+	background:#f3f3f3 url('../images/base-countdown.png') repeat;
+	border-bottom:1px solid #eaeaea;
+	margin-top:-140px;
+	text-align:center;
+	margin-bottom:80px;
+	z-index:999;
+	
+	-moz-box-shadow:0px 1px 3px #DADADA;
+	-webkit-box-shadow:0px 1px 3px #DADADA;
+	box-shadow:0px 1px 3px #DADADA;
+}
+
+	#countdown .edge {
+		height:10px;
+		background-color:#ffb03b;	
+	}
+
+	#countdown h2 {
+		text-transform:uppercase;
+		font-size:32px;
+		line-height:36px;
+		margin-bottom:10px;
+		margin-top:40px;
+		padding:0px 20px;
+	}
+		
+	#countdown h5 {
+		font-family:'PT Sans', Arial, sans-serif;
+		font-size:1em;
+		color:#8e8e8e;
+		padding:0px 20px;
+	}
+	
+	/* Countdown */
+	
+	#countdown .count-down {
+		margin:40px 0px;
+		padding:0px 20px;
+	}
+	
+		#countdown .count-down .count {
+			background: url('../images/base-count.png') no-repeat;
+			display:inline-block;
+			width:180px;
+			height:180px;
+			text-align:center;
+			margin:10px 10px;
+		}
+		
+		#countdown .count-down .sepCount {
+			color:#595959;
+			font-size:60px;
+			display:inline-block;
+			line-height:36px;
+			font-family:'Bitter', Georgia, serif;
+		}
+			
+			#countdown .count-down .count .bigCount {
+				font-family:'Fjalla One', Arial, sans-serif;
+				display:block;
+				font-size:60px;
+				line-height:68px;
+				margin-top:45px;
+				margin-bottom:6px;
+			}
+				
+			#countdown .count-down .count .smallCount {
+				display:block;
+				font-family:'PT Sans', Arial, sans-serif;
+				font-size:20px;
+			}
+				
+			#countdown .count-down .sepCount span {
+				display:block;
+			}
+	
+	/* Process Bar */
+	
+	#countdown .process-bar {
+		height:42px;
+		background-color:#e3e3e3;
+	}
+	
+		#countdown .process-bar .bar {
+			width:0px;
+			height:100%;
+			background:#ffb03b url('../images/bar-process.png') no-repeat;
+			overflow:hidden;
+		}
+	
+			#countdown .process-bar .text {
+				color:#fff;
+				text-align:right;
+				font-size:24px;
+				margin-right:10px;
+				line-height:42px;
+				text-shadow:1px 0px 1px #D6D6D6;
+			}
+			
+			
+			
+/* ========================= 5. Follow ========================= */
+
+#follow {
+	text-align:center;
+}
+		
+	#follow h5 {
+		font-family:'PT Sans', Arial, sans-serif;
+		font-size:1em;
+		color:#8e8e8e;
+	}
+	
+	/* Social */
+	
+	#follow ul.social {
+		margin:30px 0px 40px 0px;	
+	}
+	
+		#follow ul.social li {
+			display:inline;
+		}
+		
+			#follow ul.social li img {
+				-webkit-transition: opacity .2s ease-in-out;
+				-moz-transition: opacity .2s ease-in-out;
+				-ms-transition: opacity .2s ease-in-oute;
+				-o-transition: opacity .2s ease-in-out;
+				transition: opacity .2s ease-in-out;	
+			}
+			
+			#follow ul.social li img:hover {
+				-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=80)";
+				filter: alpha(opacity=80);
+				opacity: 0.8;
+			}
+		
+		#follow ul.social .tooltip.top {
+		  margin-top:-12px;
+		}
+		
+	/* Form Subscribe */
+		
+	#follow .form-subscribe {
+		background-color:#f3f3f3;
+		display:inline-block;
+		padding:30px 40px;
+		margin:0px;
+		border:1px solid #E3E3E3;
+		
+		-moz-border-radius:8px;	
+		-webkit-border-radius:8px;
+		border-radius:8px;
+		
+		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EBEBEB), to(#f6f6f6));
+		background: -webkit-linear-gradient(top, #EBEBEB, #f6f6f6);
+		background: -moz-linear-gradient(top, #EBEBEB, #f6f6f6);
+		background: -ms-linear-gradient(top, #EBEBEB, #f6f6f6);
+		background: -o-linear-gradient(top, #EBEBEB, #f6f6f6);
+	}
+	
+		#follow .form-subscribe label {
+			display:inline;
+			font-family:'PT Sans', Arial, sans-serif;
+			font-size:22px;
+			color:#8A8A8A;
+			text-transform:uppercase;
+			cursor:default;
+			margin-right:20px;
+			float:left;
+			line-height:38px;
+			margin-bottom:0px;
+		}
+		
+		#follow .form-subscribe .input-prepend {
+			display:inline;
+			margin:0px;
+			float:right;
+		}
+		
+			#follow .form-subscribe .input-prepend .add-on {
+				height:38px;
+				padding:0px;
+				line-height:36px;
+				padding:0px 10px;
+			}
+			
+			#follow .form-subscribe .input-prepend input[type="text"] {
+				height:38px;
+			}
+			
+			
+
+/* ========================= 6. Bottom ========================= */
+
+#bottom {
+	background-color:#f3f3f3;
+	border-top:2px solid #e6e6e6;
+	margin-top:100px;
+	padding:40px 0px 60px 0px;
+	font-size:0.9375em;
+}
+
+	#bottom h4 {
+		text-transform:uppercase;
+		margin-bottom:30px;
+		font-family:'PT Sans', Arial, sans-serif;
+		font-weight:bold;
+		font-size:1em;
+	}
+	
+	/* Lists */
+	
+	#bottom ul {
+		margin:0px;
+	}
+	
+		#bottom ul li {
+			border-bottom:1px dashed #8a8a8a;
+			list-style-type:none;
+			padding-bottom:20px;
+			margin-bottom:15px;
+			position:relative;
+			padding-left:50px;
+			word-wrap:break-word;
+		}
+		
+		#bottom ul li:last-child {
+			margin-bottom:0px;	
+		}
+		
+			#bottom ul li .tweet_pict {
+				width:36px;
+				height:36px;
+				position:absolute;
+				top:0;
+				left:0;
+				background:url('../images/picons.png') no-repeat;
+			}
+			
+			#bottom ul li .date {
+				font-size:0.75em;
+				font-family:'Bitter', Georgia, serif;
+				display:block;
+				color:#a9a9a9;
+			}
+			
+	/* Gallery */
+			
+	#bottom .gallery {
+		padding:0px 0px 20px 0px !important;	
+	}
+
+		#bottom .gallery ul {
+			margin-bottom:0px;	
+		}
+		
+			#bottom .gallery ul li {
+				display:inline;
+				border:0px;
+				padding:0px;
+				margin:0px;
+			}
+			
+				#bottom .gallery ul li img {
+					width:21%;
+					margin:0px 2% 2% 0px;
+					padding:1px;
+					background-color:#3c3734;
+				}
+				
+				#bottom .gallery ul li img:hover {
+					-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=70)";
+					filter: alpha(opacity=70);
+					opacity: 0.7;
+				}
+			
+			
+			
+/* ========================= 7. Footer ========================= */
+
+#footer {
+	background-color:#2a2a2a;
+	text-align:center;
+	padding:30px 20px;
+	color:#c8c8c8;
+	font-size: 0.875em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+	-moz-box-shadow: inset 0px 3px 5px #2A2A2A;
+	-webkit-box-shadow: inset 0px 3px 5px #2A2A2A;
+	box-shadow: inset 0px 3px 5px #2A2A2A;
+}
+
+	#footer a:link, #footer a:visited {
+		color:#FFF;	
+	}
+	
+	#footer a:hover {
+		color:#c8c8c8;
+		text-decoration:none;
+	}
+	
+	
+	
+/* ========================= 8. CSS Hacks ========================= */
+
+.ie #slider .text {
+	top:20%;	
+}
+
+.ie #follow .form-subscribe .input-prepend input[type="text"] {
+	line-height:38px;
+	padding:0px 10px;
+}
+
+.ie7 #countdown .process-bar .text {
+	text-align:center;
+}
+
+.ie7 .responsive {
+	display:none !important;	
+}
+
+.ie7 .header {
+	background:none;	
+}
+
+	.ie7 header h2 {
+		display:block;	
+	}
+	
+.ie7 #follow .form-subscribe {
+	display:inline;	
+}
+	
+	.ie7 #follow .form-subscribe label {
+		display:block;
+		float:none;
+		margin:0px;
+		margin-bottom:10px;
+	}
+			
+	.ie7 #follow .form-subscribe .input-prepend {
+		display:block;
+		float:none;
+	}
+	
+.ie7 #bottom .row-fluid > div {
+	margin:0px 5px;
+}
+	
+	
+	
+/* ========================= 9. Media Queries ========================= */
+
+@media (min-width: 980px) and (max-width: 1199px) {
+	
+	body {
+		font-size:15px;	
+	}
+	
+	#slider .text {
+		top:22%;
+	}
+	
+		#slider .text h1 {
+			font-size:46px;
+			line-height:72px;
+		}
+		
+		#slider .text h4 {
+			font-size:18px;
+			line-height:26px;
+		}
+		
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	
+	body {
+		font-size:14px;	
+	}
+	
+	.header h2 {
+		font-size:28px;
+		line-height:32px;	
+	}
+	
+	#slider .text {
+		top:20%;
+	}
+	
+		#slider .text h1 {
+			font-size:38px;
+			line-height:56px;
+		}
+		
+		#slider .text h4 {
+			font-size:16px;
+			line-height:24px;
+			margin-top:10px;
+		}
+		
+	#countdown {
+		margin-bottom:60px;
+	}
+		
+		#countdown h2 {
+			font-size:28px;
+			line-height:32px;
+			margin-top:30px;
+			padding:0px 15px;
+		}
+			
+		#countdown h5 {
+			padding:0px 15px;
+		}
+		
+			#countdown .count-down .count {
+				background: url('../images/base-count-128x128.png') no-repeat;
+				width:128px;
+				height:128px;
+				margin:0px 5px;
+			}
+			
+			#countdown .count-down .sepCount {
+				font-size:48px;
+				line-height:26px;
+			}
+				
+				#countdown .count-down .count .bigCount {
+					font-size:42px;
+					line-height:52px;
+					margin-top:30px;
+					margin-bottom:0px;
+				}
+					
+				#countdown .count-down .count .smallCount {
+					font-size:16px;
+				}
+		
+		#countdown .process-bar {
+			height:36px;
+		}
+		
+			#countdown .process-bar .text {
+				font-size:20px;
+				line-height:36px;
+			}
+			
+	#follow ul.social li img {
+		height:36px;	
+	}
+	
+	#follow .form-subscribe label {
+		font-size:18px;	
+	}
+	
+	#bottom {
+		margin-top:80px;
+	}
+	
+		#bottom h4 {
+			margin-bottom:15px;	
+		}
+		
+}
+
+@media (max-width: 767px) {
+
+	.header h2 {
+		font-size:28px;
+		line-height:32px;	
+	}
+	
+	#top .logo {
+		margin-left:20px;	
+	}
+	
+	#top .social {
+		margin-right:20px;	
+	}
+	
+	#slider .text {
+		top:30%;
+	}
+	
+		#slider .text h1 {
+			font-size:32px;
+			line-height:48px;
+		}
+		
+		#slider .text h4 {
+			font-size:15px;
+			line-height:22px;
+		}
+		
+	#countdown {
+		margin-top:30px;
+		margin-bottom:60px;
+	}
+		
+		#countdown h2 {
+			font-size:28px;
+			line-height:32px;
+			margin-top:30px;
+			padding:0px 15px;
+		}
+			
+		#countdown h5 {
+			ppadding:0px 15px;
+		}
+		
+			#countdown .count-down .count {
+				background: url('../images/base-count-128x128.png') no-repeat;
+				width:128px;
+				height:128px;
+				margin:10px 2px;
+			}
+				
+			#countdown .count-down .sepCount {
+				font-size:48px;
+				line-height:26px;
+			}
+					
+				#countdown .count-down .count .bigCount {
+					font-size:42px;
+					line-height:52px;
+					margin-top:30px;
+					margin-bottom:0px;
+				}
+						
+				#countdown .count-down .count .smallCount {
+					font-size:16px;
+				}
+		
+		#countdown .process-bar {
+			height:36px;
+		}
+		
+			#countdown .process-bar .text {
+				font-size:20px;
+				line-height:36px;
+			}
+		
+	#follow ul.social {
+		margin-bottom:30px;	
+	}
+			
+		#follow ul.social li img {
+			height:36px;
+			margin-bottom:10px;
+		}
+	
+		#follow .form-subscribe label {
+			font-size:18px;	
+		}
+	
+	#bottom {
+		margin-top:80px;
+		padding:10px 20px 40px;
+	}
+	
+		#bottom h4 {
+			margin-top:30px;	
+		}
+	
+	.responsive {
+		display:none !important;	
+	}
+	
+}
+
+@media (max-width: 640px) {
+	
+	#countdown .count-down .count {
+		background: url('../images/base-count.png') no-repeat;
+		width:180px;
+		height:180px;
+		margin:10px;
+	}
+		
+	#countdown .count-down .sepCount {
+		font-size:60px;
+		line-height:36px;
+	}
+			
+		#countdown .count-down .count .bigCount {
+			font-size:60px;
+			line-height:68px;
+			margin-top:45px;
+			margin-bottom:6px;
+		}
+				
+		#countdown .count-down .count .smallCount {
+			font-size:20px;
+		}
+			
+	#follow .form-subscribe {
+		padding-bottom:40px;
+		display:block;	
+	}
+			
+		#follow .form-subscribe label {
+			float:none;
+			margin:0px;
+			display:block;
+		}
+		
+		#follow .form-subscribe .input-prepend {
+			float:none;	
+		}
+	
+		#follow .form-subscribe input[type="text"] {
+			width:80%;
+		}
+
+}
+
+@media (max-width: 540px) {
+	
+	.header h2 {
+		font-size:24px;
+		line-height:28px;	
+	}
+	
+	#top .logo {
+		margin-left:10px;	
+	}
+	
+	#top .social {
+		margin-right:10px;	
+	}
+	
+	#slider .text {
+		top:25%;
+	}
+	
+		#slider .text h1 {
+			font-size:26px;
+			line-height:42px;
+		}
+		
+		#slider .text h4 {
+			font-size:14px;
+			line-height:18px;
+		}
+	
+}
+
+@media (max-width: 480px) {
+	
+	.header {
+		background:none;	
+	}
+	
+	.header h2 {
+		display:block; 
+	}
+	
+	#top {
+		margin-bottom:10px;
+		text-align:center;
+		height:auto;
+		margin-bottom:40px;
+	}
+	
+	#top .logo {
+		float:none;
+		display:inline-block;
+		margin:0px;
+		position:static;
+	}
+	
+	#top .social {
+		float:none;	
+		display:inline-block;
+	}
+	
+	#top .social ul {
+		margin:0px;
+		text-align:center;
+	}
+	
+	#slider .text {
+		top:20%;
+	}
+	
+		#slider .text h1 {
+			font-size:20px;
+			line-height:26px;
+		}
+		
+		#slider .text h4 {
+			margin-top:0px;
+		}
+	
+	#countdown .count-down .count {
+		background: url('../images/base-count-128x128.png') no-repeat;
+		width:128px;
+		height:128px;
+		margin:10px 5px;
+	}
+		
+	#countdown .count-down .sepCount {
+		font-size:48px;
+		line-height:26px;
+	}
+			
+		#countdown .count-down .count .bigCount {
+			font-size:42px;
+			line-height:52px;
+			margin-top:30px;
+			margin-bottom:0px;
+		}
+				
+		#countdown .count-down .count .smallCount {
+			font-size:16px;
+		}
+		
+	#follow .form-subscribe {
+		padding:20px 20px 30px;
+		display:block;
+	}
+	
+		#follow .form-subscribe label {
+			line-height:20px;
+			font-size:16px;
+			margin-bottom:10px;
+		}
+		
+}
+
+@media (max-width: 300px) {
+	
+	#follow .form-subscribe {
+		padding:10px 10px 15px;
+	}
+	
+	#slider .text {
+		top:10%;
+	}
+	
+		#slider .text h4 {
+			display:none;	
+		}
+	
+}
+h1 { margin-top:0.8em; }
+.hero h2 { color:white; font-size:40pt }
+.hero h5 { background:white; border:1px solid #aaa; padding:10px; width:40%; margin:0 auto; font-size:30pt; line-height:1em;}

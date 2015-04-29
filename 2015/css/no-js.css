@@ -1,0 +1,7 @@
+#slider .flexslider .slides > li:first-child {
+	display:block;
+}
+
+#countdown .process-bar .bar {
+	width:70%;	
+}
