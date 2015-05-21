@@ -212,18 +212,6 @@ $(document).ready(function(){
 		setInterval(precentProcess, 0);
 	});
 	
-	// Flickr gallery
-	$('#flickr-gallery').jflickrfeed({
-		limit: 12,
-		qstrings: {
-			id: '29397564@N05' // Your flickr id
-		},
-		itemTemplate: 
-		'<li class="photo">' +
-		 '<a href="{{image_b}}" target="_blank"><img src="{{image_s}}" alt="{{title}}" /></a>' +
-		'</li>'
-	});
-	
 	// jQuery placeholder for IE
 	$("input, textarea").placeholder();
 
