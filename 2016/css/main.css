@@ -1,6 +1,6 @@
 
 .background {
-	background: url('/img/Portland_Maine.jpg');
+	background: url('../img/Portland_Maine.jpg');
 	background-repeat: no-repeat;
 	background-position: center left;
 	background-size: cover;
