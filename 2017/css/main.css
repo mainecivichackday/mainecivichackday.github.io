@@ -1,0 +1,97 @@
+
+.background {
+	background: url('../img/Portland_Maine.jpg');
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+}
+
+/******
+	Well
+*******/
+
+.well
+{
+    background: rgb(255,255,255);
+		background: rgba(255,255,255,0.5);
+		border: rgb(255,255,255);
+		border: rgba(255,255,255,0.3);
+}
+
+.well h3 {
+	padding: 0;
+	margin: 0;
+}
+
+.well .well {
+	margin: 0;
+}
+
+/*******
+	Lists
+********/
+.icon-list {
+	text-align: center;
+}
+
+.icon-list li {
+	width: 60px;
+	text-align: center;
+}
+
+
+/********* /
+	Footer
+/*********/
+
+footer {
+	position: relative;
+	bottom: 0;
+	color: white;
+	background: black;
+	background: rgba(0, 0, 0, 0.55);
+	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 10pt;
+	margin-top: 50pt;
+}
+
+@media(min-width: 992px) {
+
+	footer {
+		position: fixed;
+	}
+}
+
+footer a {
+	color: white;
+	font-weight: bold;
+}
+
+footer a: hover {
+	color: white;
+}
+
+
+/*****************
+	Utility Classes
+******************/
+.headroom-xl {	margin-top: 50px; }
+
+.headroom-lg {	margin-top: 40px; }
+
+.headroom {	margin-top: 30px; }
+
+.headroom-md {	margin-top: 20px; }
+
+.headroom-sm {	margin-top: 10px; }
+
+.headroom-xs {	margin-top: 5px; }
+
+.profilepic img { margin: auto; }
+
+.list-headroom-sm li {	margin-top: 10px; }
+
