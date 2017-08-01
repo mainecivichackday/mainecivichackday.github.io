@@ -1,5 +1,10 @@
 CHANGELOG
 =========
+v2017.0.1
+---------
+
+  * repurposing 2014 template for 2017 Portland Event
+  * Changed some headers, carousel, contact sections
 
 v2014.0.3
 ---------
