@@ -41,11 +41,11 @@ div.fancy-select ul.options li.selected, div.fancy-select ul.options li.selected
 a, .accordion-heading span, .speaker-contacts > .contact, 
 .table-features li.fa-check-circle, .owl-btn.prev,
 .owl-btn.next, div.fancy-select ul.options li.hover {
-  color: #C83A66; }
+  color: #333333; }
 
 .speaker:hover .speaker-photo, .speaker-contacts > .contact, 
 .social-icons li a:hover, .gotop:hover, .speaker-contacts > .contact:hover {
-  border-color: rgba(79, 218, 224, 0.47); 
+  border-color: rgba(51, 51, 51, 0.47); 
 }
 h2.heading{
  font-family: 'Roboto', sans-serif;    
