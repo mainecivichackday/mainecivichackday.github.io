@@ -550,12 +550,12 @@ h6 .small {
 
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 175%;
 }
 
 h2,
 .h2 {
-  font-size: 175%;
+  font-size: 30px;
 }
 
 h3,
