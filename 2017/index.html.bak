@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Responsive HTML5 Single Page Design Template">
+    <meta name="keywords" content="Bootstrap, Bootstrap 3, Font Awesome, Ion Icons, Ionicons, HTML5, CSS, CSS3, JavaScript, Template, JS, jQuery, Ajax, work, single-page, one-page, Theme, Twitter, Facebook">
+    <title>#CivicDesignFest</title>
+    <link href="favicon1.ico" rel="icon" type="image/x-icon">
+    <!-- PRE-LOADER JAVASCRIPT START -->
+    <script src="js/pace.min.js" type="text/javascript"></script>
+    <!-- PRE-LOADER JAVASCRIPT END -->
+    <!-- STYLESHEETS START -->
+    <!-- Bootstrap style sheet -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Font Awesome style sheet -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Ion Icons style sheet -->
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <!-- Pretty photo style sheet -->
+    <link rel="stylesheet" href="css/prettyPhoto.css">
+    <!-- Sunshine specific style sheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- STYLESHEETS END -->
+    <!-- FONTS START -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"
+      type="text/css">
+    <!-- FONTS END -->
+  </head>
+  <body data-spy="scroll" data-target="#top-navigation">
+    <!-- PAGE START -->
+    <div id="page">
+      <!-- MAIN NAV START -->
+      <nav id="top-navigation" class="navbar navbar-default navbar-transparent navbar-fixed-top"
+        role="navigation">
+        <div class="navbar-header"> <button id="menu-mobile" type="button" class="navbar-toggle"
+            data-toggle="collapse" data-target="#navbar-collapse-1"> <span class="fa fa-bars"></span>
+          </button>
+          <!-- LOGO COMES HERE --> <a class="navbar-brand scroll" href="#header">#CivicDesignFest</a>
+        </div>
+        <!-- NAV ITEMS START -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#header" class="scroll">Home</a></li>
+            <li><a href="#about" class="scroll">About</a></li>
+            <li><a href="#schedule" class="scroll">Schedule</a></li>
+            <li><a href="#problems" class="scroll">2017 Projects</a></li>
+            <li><a href="#participate" class="scroll">Participate</a></li>
+            <li><a href="#sponsoring" class="scroll">Sponsors</a></li>
+            <li><a href="#contact" class="scroll">Contact</a></li>
+          </ul>
+        </div>
+        <!-- NAV ITEMS END --> </nav>
+      <!-- MAIN NAV END -->
+      <!-- HOME START -->
+      <header id="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8" id="intro">
+              <h1><i class="fa ion-wrench ogo-circled"></i> <strong>Portland
+                  Civic Design Festival</strong></h1>
+              <div style="padding-left:47px;">
+                <h3>September 23rd - Mechanic's Hall</h3>
+                <h4>9:00am - 9:00pm</h4>
+                <h5><i>Free and open to all</i></h5>
+                <br>
+                <!-- TICKER START -->
+                <div class="ticker">
+                  <h3><strong>Come</strong> create.</h3>
+                  <h3><strong>Help</strong> folks.</h3>
+                  <h3><strong>Build</strong> community.</h3>
+                </div>
+                <!-- TICKER END -->
+                <p>Join us for a community project prototyping marathon! Expect
+                  a day of free-spirited collaboration with teams of locals to
+                  design and launch new projects for our community. All ages,
+                  backgrounds, skill levels welcome. Both high-tech &amp;
+                  low-tech projects encouraged! </p>
+              </div>
+              <br>
+              <a href="#about" class="btn btn-transparent scroll"><strong>RSVP</strong></a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- HOME END -->
+      <!-- ABOUT START -->
+      <section id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h3 class="fancy"><span>About</span></h3>
+            </div>
+            <div class="article col-xs-12 col-sm-4"> <i class="ion-clock fa-2x orange"></i>
+              <h3>History</h3>
+              <p>September 23rd marks the National Day of Civic Hacking, when
+                people around the country gather to "hack" their cities in a
+                positive way by working on creative and innovative solutions to
+                community challenges.</p>
+            </div>
+            <div class="article col-xs-12 col-sm-4"> <i class="ion-compass fa-2x orange"></i>
+              <h3>Venue</h3>
+              <p>Mechanics Hall (<a target="_blank" href="https://www.google.com/maps/place/Mechanics+Hall/@42.9574192,-72.1548626,8z/data=%214m8%211m2%212m1%211smechanics+hall%213m4%211s0x4cb29c147a387e75:0x1caeaaae52d9e5e4%218m2%213d43.6562604%214d-70.2611665">519
+                  Congress St</a>) is a historic commercial building, meeting
+                hall, and home of the Maine Charitable Mechanics Association, a
+                fellowship of Portland's creative community since 1815.</p>
+              <p><br>
+              </p>
+            </div>
+            <div class="article col-xs-12 col-sm-4"> <i class="ion-pinpoint fa-2x orange"></i>
+              <h3>Goals</h3>
+              <p>To create an opportunity for unexpected and surprising
+                solutions to emerge. To demonstrate positive patterns in
+                community problem solving. To inspire and energize.</p>
+            </div>
+          </div>
+          <div id="facts" class="carousel slide hidden-xs">
+            <!-- CAROUSEL ITEMS START -->
+            <div class="carousel-inner">
+              <div class="active item">
+                <h3><strong>Your Skills</strong> Your Community</h3>
+              </div>
+              <div class="item">
+                <h3><strong>Catalyzing</strong> New Ideas</h3>
+              </div>
+              <div class="item">
+                <h3><strong>Collaborating</strong> Across Boundaries</h3>
+              </div>
+              <div class="item">
+                <h3><strong>Building</strong> Our City, Together</h3>
+              </div>
+            </div>
+            <!-- CAROUSEL ITEMS END --> </div>
+        </div>
+      </section>
+      <!-- ABOUT END -->
+      <!-- HIGHLIGHTS START -->
+      <section id="schedule">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <p class="fancy"><span>2017 PROJECTS</span></p>
+              <div class="desc col-xs-12 col-sm-6 col-sm-offset-3">
+                <h2>Check Back Soon for Team Info</h2>
+                <p>or propose your own project <a target="_blank" href="mailto:portlandcivicdesign@gmail.com">HERE</a>
+                </p>
+                <p><i>Anyone can propose a project, up to and including the
+                    morning of the event. If you don't know what you'd like to
+                    work on yet, just show up! </i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- HIGHLIGHTS END -->
+      <!-- SCHEDULE START -->
+      <section id="schedule">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <p class="fancy"><span>Schedule</span></p>
+            </div>
+            <div class="desc col-xs-12 col-sm-6 col-sm-offset-3" style="text-align: center;">
+              <h1>Saturday September 23rd</h1>
+              <dl>
+                <dt>Doors Open</dt>
+                <dd>9:00 am</dd>
+                <dt>Teams Form</dt>
+                <dd>10:00 am</dd>
+                <dt>Presentations</dt>
+                <dd>7:30 pm</dd>
+                <dt>Doors Close</dt>
+                <dd>9:00 pm</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SCHEDULE END -->
+      <!-- CLIENTS START -->
+      <section id="participate">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h3 class="fancy"><span>Participate</span></h3>
+            </div>
+            <div class="desc col-xs-12 col-sm-6 col-sm-offset-3 intro">
+              <h2>How can you help?</h2>
+              <p><i>"Civic hacking" requires all kinds of skills: high tech, low
+                  tech, artistic, or otherwise! No matter what your skills, no
+                  matter how much experience you have, we want you!</i></p>
+            </div>
+          </div>
+          <!-- ROW WITH 2 CLIENTS START -->
+          <div class="row statement">
+            <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-1">
+              <h4> <strong>Join us on Saturday Sep. 23!</strong></h4>
+              <p>The most obvious way to participate is to <a href="#About">
+                  register for the event</a> on September 23rd. Registration is
+                encouraged but not required for admittance. Bring your friends,
+                kids, and co-workers!</p>
+            </div>
+            <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-2">
+              <h4> <strong>Help Organize</strong></h4>
+              Want to volunteer or join the organizing team? Send us an <a target="_blank"
+                href="mailto:portlandcivicdesign@gmail.com">email</a>, or meet
+              us every Tuesday night at <a target="_blank" href="https://www.meetup.com/Hack-Portland/">Hack
+                Portland</a>!</div>
+          </div>
+          <!-- ROW WITH 2 CLIENTS END -->
+          <!-- ROW WITH 1 CLIENT START -->
+          <div class="row statement">
+            <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-4">
+              <h4><strong>Sponsor the event</strong></h4>
+              <p>Please consider <a target="_blank" href="mailto:portlandcivicdesign@gmail.com">sponsoring
+                  us</a> with funds, food, space, or attendance to make this
+                year's event a huge success.</p>
+            </div>
+          </div>
+          <!-- ROW WITH 1 CLIENT END --> </div>
+      </section>
+      <!-- CLIENTS END -->
+      <!-- SPONSORING START -->
+      <section id="sponsoring">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <p class="fancy"><span>Sponsors</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="article col-xs-12 col-sm-4"> <a href="https://www.facebook.com/code4maine/">
+            <img title="Code For Maine" alt="Code For Maine" src="Logos/cfm.png"
+              border="0" height="100" width="100"> </a> </div>
+        <div class="article col-xs-12 col-sm-4"><a href="http://www.mainecharitablemechanicassociation.com/">
+            <img title="MCMA" alt="Maine Charitable Mechanics Association" src="Logos/mechanics.png"
+              border="0" height="100" width="100"> </a> </div>
+        <div class="article col-xs-12 col-sm-4"><a href="http://thetreehouseinstitute.org/portland-global-shapers/">
+            <img title="Portland Global Shapers Hub" alt="Portland Global Shapers Hub"
+              src="Logos/shapers.jpg" border="0" height="100" width="100"> </a>
+        </div>
+      </section>
+      <!-- TEAM END -->
+      <!-- PROBLEMS START -->
+      <section id="problems">
+        <div class="container">
+          <div class="col-xs-12">
+            <p class="fancy"><span>Code of Conduct</span></p>
+          </div>
+          <div class="row"> </div>
+          If you plan to participate in the event, please take a moment to
+          review our <a href="https://github.com/Code4Maine/codeofconduct">code
+            of conduct</a>. </div>
+      </section>
+      <!-- WORK END -->
+      <!-- CONTACT START -->
+      <section id="contact">
+        <div class="container" id="contact-details-wrapper">
+          <div class="row">
+            <div class="col-xs-12">
+              <p class="fancy"><span>Contact</span></p>
+            </div>
+          </div>
+          <div id="contact-details">
+            <div class="row">
+              <div class="desc col-xs-12 col-sm-6 col-sm-offset-3 intro">
+                <h2>We'd <i class="ion-ios7-heart-outline"></i> to hear from
+                  you!</h2>
+                <p>Feel free to contact with any questions or comments about our
+                  upcoming event!</p>
+              </div>
+            </div>
+            <!-- CONTACT HAS 2 OPTIONS: Form based (option 1) and Address/Phone/Social (option 2) -->
+            <div class="row">
+              <!-- CONTACT OPTION 2 START -->
+              <div class="option col-xs-12 col-sm-6 col-sm-offset-3">
+                <div class="media">
+                  <div class="media-body"> </div>
+                </div>
+                <div class="media"> <i class="pull-left ion-ios7-telephone-outline fa-2x text-muted"></i>
+                  <div class="media-body"> (207) 939.7742 </div>
+                </div>
+                <div class="media"> <i class="pull-left ion-ios7-email-outline fa-2x text-muted"></i>
+                  <div class="media-body"> <a>portlandcivicdesign@gmail.com</a>
+                  </div>
+                </div>
+                <div class="media">
+                  <div class="media-body">
+                    <hr>
+                    <ul class="list-inline">
+                      <li><a href="http://twitter.com/mainecivichack/"><i class="ion-social-twitter fa-2x"></i></a><br>
+                      </li>
+                      <li><a href="http://facebook.com/MaineCivicHackDay/"><i class="ion-social-facebook fa-2x"></i></a><br>
+                      </li>
+                      <li><a href="http://github.com/mainecivichackday/"><i class="ion-social-github fa-2x"></i></a><br>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- CONTACT OPTION 2 END --> </div>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT END -->
+      <!-- FOOTER START -->
+      <footer id="footer">
+        <div class="container">
+          <div class="column">
+            <!-- BEGIN SPONSOR LOGO SECTION -->
+            <div class="row">
+              <!-- BEGIN SAMPLE CODE FOR LOGO
+								<div class="col-md-1 col-md-offset-1">									<img src="./images/thumbnails/1.jpg" alt="A nice logo." height="80" width="80" />								</div>								 END SAMPLE CODE -->
+            </div>
+            <!-- END SPONSOR LOGO SECTION -->
+            <div class="col-xs-12">
+              <p class="text-muted">MIT License.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- FOOTER END -->
+      <!-- PAGE END -->
+      <!-- JAVASCRIPT START -->
+      <!-- jQuery script -->
+      <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+      <!-- Bootstrap script -->
+      <script src="js/bootstrap.min.js" type="text/javascript"></script>
+      <!-- Pretty photo script -->
+      <script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+      <!-- Parallax script -->
+      <script src="js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
+      <!-- Mixitup Filters script -->
+      <script src="js/jquery.mixitup.min.js" type="text/javascript"></script>
+      <!-- Sunshine specific Scripts -->
+      <script src="js/scripts.js" type="text/javascript"></script>
+      <!-- JAVASCRIPT END --> </div>
+  </body>
+</html>
