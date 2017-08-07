@@ -59,11 +59,11 @@
             <div id="intro">
               <!-- ROW WITH 2 CLIENTS START -->
               <div class="row statement">
-                <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-0 col-md-4 col-md-offset-0">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-1">
                   <img title="CivicDesignFest" alt="CivicDesignFest" src="Logos/CivicDesignFest_wht.svg"
                     height="80%" width="80%"> </div>
                 <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-6 col-md-offset-0">
-                  <h3>September 23rd - Mechanic's Hall</h3>
+                  <h3><b>September 23rd - Mechanic's Hall</b></h3>
                   <h4>9:00am - 9:00pm</h4>
                   <h5><i>Free and open to all</i></h5>
                   <br>
