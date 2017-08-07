@@ -23,8 +23,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- STYLESHEETS END -->
     <!-- FONTS START -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"
       type="text/css">
     <!-- FONTS END -->
   </head>
@@ -32,11 +31,9 @@
     <!-- PAGE START -->
     <div id="page">
       <!-- MAIN NAV START -->
-      <nav id="top-navigation" class="navbar navbar-default navbar-transparent navbar-fixed-top"
-
+      <nav id="top-navigation" class="navbar navbar-default navbar-transparent navbar-fixed-top"
         role="navigation">
-        <div class="navbar-header"> <button id="menu-mobile" type="button" class="navbar-toggle"
-
+        <div class="navbar-header"> <button id="menu-mobile" type="button" class="navbar-toggle"
             data-toggle="collapse" data-target="#navbar-collapse-1"> <span class="fa fa-bars"></span>
           </button>
           <!-- LOGO COMES HERE --> <a class="navbar-brand scroll" href="#header">#CivicDesignFest</a>
@@ -48,7 +45,7 @@
             <li><a href="#about" class="scroll">About</a></li>
             <li><a href="#problems" class="scroll">2017 Projects</a></li>
             <li><a href="#schedule" class="scroll">Schedule</a></li>
-            <li><a href="#participate" class="scroll">Participate</a></li>
+            <li><a href="#participate" class="scroll">RSVP</a></li>
             <li><a href="#sponsoring" class="scroll">Sponsors</a></li>
             <li><a href="#contact" class="scroll">Contact</a></li>
           </ul>
@@ -84,7 +81,7 @@
               <a href="#participate" class="btn btn-transparent scroll"><strong>RSVP</strong></a>
             </div>
           </div>
-           </div>
+        </div>
       </header>
       <!-- HOME END -->
       <!-- ABOUT START -->
@@ -145,7 +142,7 @@
               <p class="fancy"><span>2017 PROJECTS</span></p>
               <div class="desc col-xs-12 col-sm-6 col-sm-offset-3">
                 <h2>Check Back Soon for Team Info</h2>
-                <p>or propose your own project <a target="_blank" href="mailto:portlandcivicdesign@gmail.com">HERE</a>
+                <p>or propose your own project <a target="_top" href="mailto:https://goo.gl/forms/WxWHCUV4ki79uQF02">HERE</a>
                 </p>
                 <p><i>Anyone can propose a project, up to and including the
                     morning of the event. If you don't know what you'd like to
@@ -188,25 +185,24 @@
               <h3 class="fancy"><span>Participate</span></h3>
             </div>
             <div class="desc col-xs-12 col-sm-6 col-sm-offset-3 intro">
-              <h2>How can you help?</h2>
+              <h2>"How can I help?"</h2>
               <p><i>"Civic hacking" requires all kinds of skills: high tech, low
-                  tech, artistic, or otherwise! No matter what your skills, no
-                  matter how much experience you have, we want you!</i></p>
+                  tech, artistic, social, or otherwise! No matter what your
+                  skills, no matter how much experience you have, we want you!</i></p>
             </div>
           </div>
           <!-- ROW WITH 2 CLIENTS START -->
           <div class="row statement">
             <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-1">
-              <h4> <strong>Join us on Saturday Sep. 23!</strong></h4>
-              <p>The most obvious way to participate is to <a href="#About">
-                  register for the event</a> on September 23rd. Registration is
-                encouraged but not required for admittance. Bring your friends,
-                kids, and co-workers!</p>
+              <h4> <strong>Sponsorship<br>
+                </strong></h4>
+              <p>Please consider <a target="_blank" href="mailto:portlandcivicdesign@gmail.com">sponsoring
+                  us</a> with funds, food, space, or attendance to make this
+                year's event a huge success.</p>
             </div>
             <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-2">
-              <h4> <strong>Help Organize</strong></h4>
-              Want to volunteer or join the organizing team? Send us an <a target="_blank"
-
+              <h4> <strong>Volunteer</strong></h4>
+              Want to volunteer or join the organizing team? Send us an <a target="_blank"
                 href="mailto:portlandcivicdesign@gmail.com">email</a>, or meet
               us every Tuesday night at <a target="_blank" href="https://www.meetup.com/Hack-Portland/">Hack
                 Portland</a>!</div>
@@ -215,10 +211,12 @@
           <!-- ROW WITH 1 CLIENT START -->
           <div class="row statement">
             <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-4">
-              <h4><strong>Sponsor the event</strong></h4>
-              <p>Please consider <a target="_blank" href="mailto:portlandcivicdesign@gmail.com">sponsoring
-                  us</a> with funds, food, space, or attendance to make this
-                year's event a huge success.</p>
+              <h4><strong>RSVP<br>
+                </strong></h4>
+              <p><a target="_top" href="https://goo.gl/forms/WxWHCUV4ki79uQF02">Click
+                  here to RSVP</a> for the event. Registration is encouraged but
+                not required for admittance. When in doubt, just show up! (Bring
+                your friends, kids, and co-workers, too)</p>
             </div>
           </div>
           <!-- ROW WITH 1 CLIENT END --> </div>
@@ -234,16 +232,13 @@
           </div>
         </div>
         <div class="article col-xs-12 col-sm-4"> <a href="https://www.facebook.com/code4maine/">
-            <img title="Code For Maine" alt="Code For Maine" src="Logos/cfm.png"
-
+            <img title="Code For Maine" alt="Code For Maine" src="Logos/cfm.png"
               border="0" height="100" width="100"> </a> </div>
         <div class="article col-xs-12 col-sm-4"><a href="http://www.mainecharitablemechanicassociation.com/">
-            <img title="MCMA" alt="Maine Charitable Mechanics Association" src="Logos/mechanics.png"
-
+            <img title="MCMA" alt="Maine Charitable Mechanics Association" src="Logos/mechanics.png"
               border="0" height="100" width="100"> </a> </div>
         <div class="article col-xs-12 col-sm-4"><a href="http://thetreehouseinstitute.org/portland-global-shapers/">
-            <img title="Portland Global Shapers Hub" alt="Portland Global Shapers Hub"
-
+            <img title="Portland Global Shapers Hub" alt="Portland Global Shapers Hub"
               src="Logos/shapers.jpg" border="0" height="100" width="100"> </a>
         </div>
       </section>
