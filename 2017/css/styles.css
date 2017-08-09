@@ -224,6 +224,10 @@ a:hover {
     height: 100%;
 }
 
+.logo {
+    margin-top: 5px;
+}
+
 #intro {
     position: absolute;
     top: 15%;
