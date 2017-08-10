@@ -23,17 +23,20 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- STYLESHEETS END -->
     <!-- FONTS START -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"
+
       type="text/css">
     <!-- FONTS END -->
   </head>
-  <body data-spy="scroll" data-target="#top-navigation">
+  <body data-target="#top-navigation" data-spy="scroll">
     <!-- PAGE START -->
     <div id="page">
       <!-- MAIN NAV START -->
-      <nav id="top-navigation" class="navbar navbar-default navbar-transparent navbar-fixed-top"
+      <nav id="top-navigation" class="navbar navbar-default navbar-transparent navbar-fixed-top"
+
         role="navigation">
-        <div class="navbar-header"> <button id="menu-mobile" type="button" class="navbar-toggle"
+        <div class="navbar-header"> <button id="menu-mobile" type="button" class="navbar-toggle"
+
             data-toggle="collapse" data-target="#navbar-collapse-1"> <span class="fa fa-bars"></span>
           </button>
           <!-- LOGO COMES HERE --> <a class="navbar-brand scroll" href="#header">#CivicDesignFest</a>
@@ -60,7 +63,8 @@
               <!-- ROW WITH 2 CLIENTS START -->
               <div class="row statement">
                 <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-1">
-                  <img title="CivicDesignFest" alt="CivicDesignFest" src="Logos/CivicDesignFest_wht.svg"
+                  <img title="CivicDesignFest" alt="CivicDesignFest" src="Logos/CivicDesignFest_wht.svg"
+
                     height="80%" width="80%"> </div>
                 <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-6 col-md-offset-0">
                   <h3><b>September 23rd - Mechanic's Hall</b></h3>
@@ -146,9 +150,110 @@
           <div class="row">
             <div class="col-xs-12">
               <p class="fancy"><span>2017 PROJECTS</span></p>
-              <div class="desc col-xs-12 col-sm-6 col-sm-offset-3">
-                <h4><br>
-                </h4>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-offset-0 col-sm-4" align="left">
+                    <p><strong>Portland Maine Voting Record<br>
+                      </strong><b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
+                      </b></p>
+                    <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><b
+
+                        style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">Portland
+                        ME Voting Record is an in-progress record for Portland
+                        Maine city council votes. It will help citizens,
+                        journalists, and others research past city council
+                        votes.</b></p>
+                    <b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
+                    </b><b style="font-weight:normal;"><br>
+                    </b>
+                    <p></p>
+                  </div>
+                  <div class="col-sm-offset-0 col-sm-4" align="left">
+                    <p><strong>Kesho Wazo App<br>
+                      </strong><b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
+                      </b></p>
+                    <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><b
+
+                        id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6"
+
+                        style="font-weight:normal;">Kesho Wazo is a youth arts
+                        &amp; activism collective. They are looking to build a
+                        tool that supports the artistic work of their members,
+                        and their mission to empower youth to become powerful,
+                        passionate, and creative through community engagement in
+                        pursuit of their purpose.</b></p>
+                    <b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
+                    </b><b style="font-weight:normal;"><br>
+                    </b>
+                    <p></p>
+                  </div>
+                  <div class="col-sm-offset-0 col-sm-4" align="left">
+                    <p><strong>School Budget Visualization<br>
+                      </strong><b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
+                      </b></p>
+                    <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><b
+
+                        style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">Openmaine.org
+                        is working to create an accessible website where anybody
+                        could go to get an easy-to-understand look at how the
+                        City of Portland is collecting and allocating funds. For
+                        the next phase of their project, they are working on
+                        visualizing Portland’s School Budget
+                      </b></p>
+                    <b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
+                    </b><b style="font-weight:normal;"><br>
+                    </b>
+                    <p></p>
+                  </div>
+                  <div class="col-sm-offset-0 col-sm-4" align="left">
+                    <p><strong>The Complete City<br>
+                      </strong><b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
+                      </b></p>
+                    <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><b
+
+                        style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">Portland
+                        ME Voting Record is an in-progress record for Portland
+                        Maine city council votes. It will help citizens,
+                        journalists, and others research past city council
+                        votes.</b></p>
+                    <b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
+                    </b><b style="font-weight:normal;"><br>
+                    </b>
+                    <p></p>
+                  </div>
+                  <div class="col-sm-offset-0 col-sm-4" align="left">
+                    <p><strong>Portland Maine Voting Record<br>
+                      </strong><b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
+                      </b></p>
+                    <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><b
+
+                        style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">Portland
+                        ME Voting Record is an in-progress record for Portland
+                        Maine city council votes. It will help citizens,
+                        journalists, and others research past city council
+                        votes.</b></p>
+                    <b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
+                    </b><b style="font-weight:normal;"><br>
+                    </b>
+                    <p></p>
+                  </div>
+                  <div class="col-sm-offset-0 col-sm-4" align="left">
+                    <p><strong>Portland Maine Voting Record<br>
+                      </strong><b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
+                      </b></p>
+                    <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><b
+
+                        style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">Portland
+                        ME Voting Record is an in-progress record for Portland
+                        Maine city council votes. It will help citizens,
+                        journalists, and others research past city council
+                        votes.</b></p>
+                    <b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
+                    </b><b style="font-weight:normal;"><br>
+                    </b>
+                    <p></p>
+                  </div>
+                </div>
                 <h2>More Projects Coming Soon!</h2>
                 <p>(propose your own project <a target="_top" href="mailto:https://goo.gl/forms/WxWHCUV4ki79uQF02">HERE)</a>
                 </p>
@@ -189,10 +294,6 @@
       <section id="participate">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12">
-              <h3 class="fancy"><span><br>
-                </span></h3>
-            </div>
             <div class="desc col-xs-12 col-sm-6 col-sm-offset-3 intro">
               <h2><b><a target="_top" href="https://goo.gl/forms/WxWHCUV4ki79uQF02">RSVP
                     Here<br>
@@ -202,7 +303,6 @@
                 show up! (Bring your friends, kids, and co-workers, too)</p>
             </div>
           </div>
-          <!-- ROW WITH 2 CLIENTS START -->
           <div class="row statement">
             <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-1">
               <h4> <strong>Become a Sponsor<br>
@@ -213,7 +313,8 @@
             </div>
             <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-2">
               <h4> <strong>Volunteer</strong></h4>
-              Want to volunteer or join the organizing team? Send us an <a target="_blank"
+              Want to volunteer or join the organizing team? Send us an <a target="_blank"
+
                 href="mailto:portlandcivicdesign@gmail.com">email</a>, or meet
               us every Tuesday night at <a target="_blank" href="https://www.meetup.com/Hack-Portland/">Hack
                 Portland</a>!</div>
@@ -224,7 +325,8 @@
             <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-4">
               <h3><i>I want to participate but I don't know how...</i><strong><br>
                 </strong></h3>
-              <p><a target="_top" href="https://goo.gl/forms/WxWHCUV4ki79uQF02"></a><span
+              <p><a target="_top" href="https://goo.gl/forms/WxWHCUV4ki79uQF02"></a><span
+
                   style="color: rgb(44, 62, 80); font-family: &quot;Open Sans&quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">"Civic
                   hacking" requires all kinds of skills: high tech, low tech,
                   artistic, social, or otherwise! No matter what your skills, no
@@ -243,21 +345,31 @@
             </div>
           </div>
         </div>
-        <div class="article col-xs-12 col-sm-4">
-          <a href="https://www.facebook.com/code4maine/">
-            <img title="Code For Maine" alt="Code For Maine" src="Logos/cfm.png" class="logo" border="0" height="100" width="100">
-          </a>
-        </div>
-        <div class="article col-xs-12 col-sm-4">
-          <a href="http://www.mainecharitablemechanicassociation.com/">
-            <img title="MCMA" alt="Maine Charitable Mechanics Association" src="Logos/mechanics.png" class="logo" border="0" height="100" width="100">
-          </a>
-        </div>
-        <div class="article col-xs-12 col-sm-4">
-          <a href="http://thetreehouseinstitute.org/portland-global-shapers/">
-            <img title="Portland Global Shapers Hub" alt="Portland Global Shapers Hub" src="Logos/shapers.jpg" class="logo" border="0" height="100" width="100">
-          </a>
-        </div>
+        <div class="article col-xs-12 col-sm-4"> <a href="https://www.facebook.com/code4maine/">
+            <img title="Code For Maine" alt="Code For Maine" src="Logos/cfm.png"
+
+              class="logo" border="0" height="100" width="100"> </a> </div>
+        <div class="article col-xs-12 col-sm-4"> <a href="http://www.mainecharitablemechanicassociation.com/">
+            <img title="MCMA" alt="Maine Charitable Mechanics Association" src="Logos/mechanics.png"
+
+              class="logo" border="0" height="100" width="100"> </a> </div>
+        <div class="article col-xs-12 col-sm-4"> <a href="http://thetreehouseinstitute.org/portland-global-shapers/">
+            <img title="Portland Global Shapers Hub" alt="Portland Global Shapers Hub"
+
+              src="Logos/shapers.jpg" class="logo" border="0" height="100" width="120">
+          </a> </div>
+        <div class="article col-xs-12 col-sm-4"> <a href="https://better-yet.com/">
+            <img title="BetterYet" alt="BetterYet" src="Logos/betteryet_small.png"
+
+              class="logo" border="0" height="100" width="100"> </a> </div>
+        <div class="article col-xs-12 col-sm-4"> <a href="http://codeforamerica.org/events/national-day-of-civic-hacking-2017">
+            <img title="ndoch" alt="ndoch" src="Logos/NDOCH.png" class="logo" border="0"
+
+              height="25" width="100"> </a> </div>
+        <div class="article col-xs-12 col-sm-4"> <a href="http://workplacetf.com/">
+            <img title="WTF" alt="WTF" src="Logos/WTF_LOGO_VERTICAL_COLOR%20%282%29.jpg"
+
+              class="logo" border="0" height="100" width="120"> </a> </div>
       </section>
       <!-- TEAM END -->
       <!-- PROBLEMS START -->
