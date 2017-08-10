@@ -278,7 +278,7 @@ a:hover {
 
 #about .slide {
     color: #fff;
-    background: #428bca;
+    background: RGBA (0, 140, 255);
     text-align: center;
     list-style-type: none;
     height: 60px;
