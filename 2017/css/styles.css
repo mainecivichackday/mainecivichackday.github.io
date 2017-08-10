@@ -32,12 +32,12 @@ p {
 }
 
 a, a:focus, a:active {
-    color: #319bc8;
+    color: RGBA (0, 140, 255);
     cursor: pointer;
 }
 
 a:hover {
-    color: #319bc8;
+    color: RGBA (0, 140, 255);
 }
 /* END: GLOBAL STYLES */
 
@@ -55,7 +55,7 @@ a:hover {
 }
 
 .pace .pace-progress {
-    background-color: #319bc8;
+    background-color: RGBA (0, 140, 255);
     position: fixed;
     z-index: 2000;
     top: 0;
@@ -154,7 +154,7 @@ a:hover {
 
 /* START: COMMON UI ELEMENTS */
 .orange {
-    color: #319bc8;
+    color: RGBA (0, 140, 255);
 }
 
 .btn-half-block {
@@ -169,7 +169,7 @@ a:hover {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     color: rgba(255, 255, 255, 0.8);
-    background-color: #319bc8;
+    background-color: RGBA (0, 140, 255);
 }
 
 .btn-transparent {
@@ -193,13 +193,13 @@ a:hover {
 }
 
 .btn-orange {
-    background-color: #319bc8;
+    background-color: RGBA (0, 140, 255);
     color: #fff;
     border: 1px solid #fff;
 }
 
 .btn-orange:hover, .btn-orange:focus, .btn-orange:active {
-    background-color: #319bc8;
+    background-color: RGBA (0, 140, 255);
     color: #fff;
 }
 
@@ -232,12 +232,12 @@ a:hover {
     position: absolute;
     top: 15%;
     padding-bottom: 20px;
-    background-color: rgba(120, 140, 160, 0.85);
+    background-color: rgba(0, 140, 255, 0.85);
     color: #fff;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    border: 1px solid rgba(120, 140, 160, 1);
+    border: 1px solid rgba(0, 140, 255, 1);
 }
 
 #intro .ticker {
@@ -367,7 +367,7 @@ a:hover {
 
 #work #filters li.active {
     background-color: #fff;
-    color: #319bc8;
+    color: RGBA (0, 140, 255);
 }
 
 #work #gallery {
