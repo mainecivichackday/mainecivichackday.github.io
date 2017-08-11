@@ -505,6 +505,7 @@ a:hover {
 
   dl {
     padding: 0.5em;
+    display: inline-block;
   }
   dt {
     float: left;
