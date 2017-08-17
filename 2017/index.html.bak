@@ -63,7 +63,7 @@
                   <img title="CivicDesignFest" alt="CivicDesignFest" src="Logos/CivicDesignFest_wht.svg"
                     height="80%" width="80%"> </div>
                 <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-6 col-md-offset-0">
-                  <h3><b>September 23rd - Mechanic's Hall</b></h3>
+                  <h3><b>September 23rd - Mechanics Hall</b></h3>
                   <h4>9:00am - 9:00pm</h4>
                   <h5><i>Free and open to all</i></h5>
                   <br>
@@ -330,25 +330,27 @@
             </div>
           </div>
         </div>
-        <div class="article col-xs-12 col-sm-4"> <a href="https://www.facebook.com/code4maine/">
+        <div class="row">
+        <div class="article col-xs-12 col-sm-4 col-lg-3"> <a href="https://www.facebook.com/code4maine/">
             <img title="Code For Maine" alt="Code For Maine" src="Logos/cfm.png"
               class="logo" border="0" height="100" width="100"> </a> </div>
-        <div class="article col-xs-12 col-sm-4"> <a href="http://www.mainecharitablemechanicassociation.com/">
+        <div class="article col-xs-12 col-sm-4 col-lg-3"> <a href="http://www.mainecharitablemechanicassociation.com/">
             <img title="MCMA" alt="Maine Charitable Mechanics Association" src="Logos/mechanics.png"
               class="logo" border="0" height="100" width="100"> </a> </div>
-        <div class="article col-xs-12 col-sm-4"> <a href="http://thetreehouseinstitute.org/portland-global-shapers/">
+        <div class="article col-xs-12 col-sm-4 col-lg-3"> <a href="http://thetreehouseinstitute.org/portland-global-shapers/">
             <img title="Portland Global Shapers Hub" alt="Portland Global Shapers Hub"
               src="Logos/shapers.jpg" class="logo" border="0" height="100" width="120">
           </a> </div>
-        <div class="article col-xs-12 col-sm-4"> <a href="https://better-yet.com/">
+        <div class="article col-xs-12 col-sm-4 col-lg-3"> <a href="https://better-yet.com/">
             <img title="BetterYet" alt="BetterYet" src="Logos/betteryet_small.png"
               class="logo" border="0" height="100" width="100"> </a> </div>
-        <div class="article col-xs-12 col-sm-4"> <a href="http://codeforamerica.org/events/national-day-of-civic-hacking-2017">
+        <div class="article col-xs-12 col-sm-4 col-lg-3"> <a href="http://codeforamerica.org/events/national-day-of-civic-hacking-2017">
             <img title="ndoch" alt="ndoch" src="Logos/NDOCH.png" class="logo" border="0"
               height="25" width="100"> </a> </div>
-        <div class="article col-xs-12 col-sm-4"> <a href="http://workplacetf.com/">
+        <div class="article col-xs-12 col-sm-4 col-lg-3"> <a href="http://workplacetf.com/">
             <img title="WTF" alt="WTF" src="Logos/WTF_LOGO_VERTICAL_COLOR%20%282%29.jpg"
               class="logo" border="0" height="100" width="120"> </a> </div>
+        </div>
       </section>
       <!-- TEAM END -->
       <!-- PROBLEMS START -->
