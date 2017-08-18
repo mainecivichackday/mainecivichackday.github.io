@@ -254,6 +254,20 @@
                     </b>
                     <p></p>
                   </div>
+                  <div class="col-sm-offset-0 col-sm-4" align="left">
+                    <p><strong>Interactive street life project for St. John St<br>
+                      </strong><b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
+                      </b></p>
+                    <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;">Join
+                      the Open Bench Project in bringing a surprising bit of
+                      street art to the corner of St. John and Congress Street.
+                      Engage the community with a bit of fun loving and curious
+                      bit of street art. </p>
+                    <b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
+                    </b><b style="font-weight:normal;"><br>
+                    </b>
+                    <p></p>
+                  </div>
                 </div>
                 <h2>More Projects Coming Soon!</h2>
                 <p>(propose your own project <a target="_top" href="mailto:https://goo.gl/forms/WxWHCUV4ki79uQF02">HERE)</a>
@@ -352,7 +366,7 @@
                 class="logo" border="0" height="100" width="100"> </a> </div>
           <div class="article col-xs-12 col-sm-4 col-lg-3"> <a href="http://thetreehouseinstitute.org/portland-global-shapers/">
               <img title="Portland Global Shapers Hub" alt="Portland Global Shapers Hub"
-                src="Logos/shapers.jpg" class="logo" border="0" height="100" width="120">
+                src="Logos/shapers.png" class="logo" border="0" height="100" width="110">
             </a> </div>
           <div class="article col-xs-12 col-sm-4 col-lg-3"> <a href="https://better-yet.com/">
               <img title="BetterYet" alt="BetterYet" src="Logos/betteryet_small.png"
