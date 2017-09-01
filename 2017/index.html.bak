@@ -222,6 +222,16 @@
                     </b>
                     <p></p>
                   </div>
+			 <div class="col-sm-offset-0 col-sm-4" align="left">
+                    <p><strong>Portland Mesh Network<br>
+                      </strong><b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
+                      </b></p>
+                    <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;">Project lead by David Campbell to create a citizen run communications network. Goals include sharing Internet access, increasing WiFi access, sharing local data, creating a platform for IoT (Internet of Things) applications, building community, and increasing citizen knowledge of how communication networks function.</p>
+                    <b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
+                    </b><b style="font-weight:normal;"><br>
+                    </b>
+                    <p></p>
+                  </div>
                   <div class="col-sm-offset-0 col-sm-4" align="left">
                     <p><strong>Community Services Guide <br>
                       </strong><b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
@@ -385,7 +395,7 @@
               <img title="BetterYet" alt="BetterYet" src="Logos/betteryet_small.png"
 
                 class="logo" border="0" height="100" width="100"> </a> </div>
-          <div class="article col-xs-12 col-sm-4 col-lg-3"> <a href="https://better-yet.com/">
+          <div class="article col-xs-12 col-sm-4 col-lg-3"> <a href="https://www.facebook.com/adamburkandco/">
               <img title="BurkCo" alt="BurkCo" src="Logos/ABco_Logo_PMS.png" class="logo"
 
                 border="0" height="56" width="100"> </a> </div>
@@ -401,6 +411,12 @@
               <img title="Adhoc" alt="Adhoc" src="Logos/adhoc.svg" class="logo"
 
                 border="0" height="100" width="100"> </a> </div>
+		 <div class="article col-xs-12 col-sm-4 col-lg-3"> <a href="https://sethrigoletti.com/">
+              <img title="Rigoletti" alt="Rigoletti" src="Logos/valico.png" class="logo" border="0"
+
+                height="50" width="180"> </a> </div>
+		   <div class="article col-xs-12 col-sm-4 col-lg-3"> <a href="http://www.projectlogin.com/">
+              <img title="PRlogin" alt="PRlogin" src="Logos/prlogin.png" class="logo" border="0" height="100" width="128"> </a> </div>
           <div class="article col-xs-12 col-sm-4 col-lg-3"> <a href="https://obportland.org/">
               <img title="OBP" alt="OBP" src="Logos/openbenchproject16_cropped.png"
 
