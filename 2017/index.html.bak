@@ -180,25 +180,21 @@
                         &amp; activism collective. They are looking to build a
                         tool that supports the artistic work of their members,
                         and their mission to empower youth to become powerful,
-                        passionate, and creative through community engagement in
-                        pursuit of their purpose.</b></p>
+                         passionate, and creative through community
+                        engagement in pursuit of their purpose.</b></p>
                     <b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
                     </b><b style="font-weight:normal;"><br>
                     </b>
                     <p></p>
                   </div>
                   <div class="col-sm-offset-0 col-sm-4" align="left">
-                    <p><strong>School Budget Visualization<br>
+                    <p><strong>Bringing Maine's Political Scorecards into the Digital Age<br>
                       </strong><b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
                       </b></p>
                     <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><b
 
-                        style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">Openmaine.org
-                        is working to create an accessible website where anybody
-                        could go to get an easy-to-understand look at how the
-                        City of Portland is collecting and allocating funds. For
-                        the next phase of their project, they are working on
-                        visualizing Portland’s School Budget.</b></p>
+                        style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">Project by Openmaine.org
+                       to design a tool for generating political scorecards for advocacy groups in Maine. corecards are usually either designed only for print, or, when they are available digitally, look like they crawled out of the early Internet circa 1994. This project seeks to improve the design and function of political scorecards for all types of advocacy groups.</b></p>
                     <b style="font-weight:normal;" id="docs-internal-guid-8c059235-ce6b-e02a-fc2b-047a44083ee6">
                     </b><b style="font-weight:normal;"><br>
                     </b>
@@ -450,7 +446,7 @@
 
                 src="Logos/shapers.png" class="logo" border="0" height="100" width="110">
             </a> </div>
-           <div class="article col-xs-12 col-sm-4 col-lg-3"> <a href="https://obportland.org/">
+          <div class="article col-xs-12 col-sm-4 col-lg-3"> <a href="https://obportland.org/">
               <img title="OBP" alt="OBP" src="Logos/openbenchproject16_cropped.png"
 
                 class="logo" border="0" height="60" width="120"> </a> </div>
@@ -478,7 +474,6 @@
               <img title="Kingspoke" alt="Kingspoke" src="Logos/kingspoke.png" class="logo"
 
                 border="0" height="32" width="200"> </a> </div>
-         
         </div>
       </section>
       <!-- TEAM END -->
